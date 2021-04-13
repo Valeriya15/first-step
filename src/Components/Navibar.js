@@ -22,7 +22,8 @@ export default function NaviBar(){
     const handleShow = () => setShow (true);
 
     return(
-    <>
+        <>
+        
     <Styles>
         <Navbar collapseOnSelect expend="lg" bg="dark" variant="dark">
             <Container>

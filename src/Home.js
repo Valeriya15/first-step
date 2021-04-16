@@ -4,5 +4,6 @@ import Slider from './Components/Slider'
 
 
 export const Home = () => {
-    <Slider />
+    return <Slider/>
+    
 }

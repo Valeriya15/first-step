@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
 import NaviBar from './Components/Navibar';
@@ -20,12 +20,14 @@ function App() {
   return (
     <>
     
-    <Router><NaviBar />
+      <Router>
+        <NaviBar />
   <Switch>
     <Route exact path="/home" component={Home}/>
     <Route path="/users" component={Users}/>
     <Route path="/about" component={About}/>
-  </Switch></Router>
+        </Switch>
+      </Router>
     </>
   );
 }

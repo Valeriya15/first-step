@@ -1,7 +1,8 @@
-import { Carousel } from 'bootstrap';
+import { Carousel } from 'react-bootstrap';
 import React from 'react';
-import { } from 'react-bootstrap';
-import vine from '../vine.jpg'
+
+
+import vine from '../738992.jpg';
 
 
 export default function Slider() {
@@ -13,7 +14,9 @@ export default function Slider() {
                     src={vine}
                     alt= "First slide"
                 />
-                         
+                <Carousel.Caption>
+                    <h3>Framework</h3>
+                </Carousel.Caption>
     </Carousel.Item>
 </Carousel>
     )

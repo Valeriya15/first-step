@@ -30,10 +30,10 @@ export default function NaviBar(){
             <Navbar.Brand>Q/A</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
             <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav classname="mr-auto">
-                    <Nav.Link>Home</Nav.Link>
-                    <Nav.Link>Users</Nav.Link>
-                    <Nav.Link>About</Nav.Link>
+                <Nav className="mr-auto">
+                <Nav.Link><Link to ='/home'>Home</Link></Nav.Link>
+                    <Nav.Link><Link to = '/users'>Users</Link></Nav.Link>
+                    <Nav.Link><Link to = '/about'>About</Link></Nav.Link>
                     
                 </Nav>
                 <Nav>
@@ -53,7 +53,7 @@ export default function NaviBar(){
                     <Form.Group controlId="fromBasicEmail">
                         <Form.Label>Email Addres</Form.Label>
                             <Form.Control type="email" placeholder="Enter email"/>
-                            <Form.Text classname="text-muted">We`ll never share your email with anyone else</Form.Text>
+                            <Form.Text className="text-muted">We`ll never share your email with anyone else</Form.Text>
                     </Form.Group>
                     <Form.Group controlId="fromBasicPassword">
                         <Form.Label>Password</Form.Label>
